@@ -53,7 +53,7 @@ body {
 
 .dark-theme .main-content {
     background-color: #021024;
-    color: #FFF;
+    color: #b2b2b2;
 }
 
 .user-img {
@@ -223,24 +223,26 @@ body {
 
 .main-content {
     position: relative;
-    
     min-height: 100vh;
     top: 0;
     left: 80px;
     transition: all 0.5s ease;
     width: calc(100% - 80px);
     padding: 1rem;
-    color: #000;
+    color: #4c4c4c;
 }
 
 .container {
     padding: 25px;    
 }
 
+
+
 .chld-container {
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius: 15px;
-    width: 900px;
+    width: calc(100% - 50%);
+    font-weight: 300;
     padding: 25px;
     margin: 0 auto;
 }
