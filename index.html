@@ -6,7 +6,7 @@
     <title>Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -32,66 +32,66 @@
       </div>
       <ul>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('aboutmeid')">
             <i class="bx bxs-user-detail"></i>
             <span class="nav-item">About me</span>
-          </a>
+          </div>
           <span class="tooltip">About me</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('portofolioid')">
             <i class="bx bxs-devices"></i>
             <span class="nav-item">Projects</span>
-          </a>
+          </div>
           <span class="tooltip">Projects</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('workexperienceid')">
             <i class="bx bxs-briefcase"></i>
             <span class="nav-item">Work Experience</span>
-          </a>
+          </div>
           <span class="tooltip">Work Experience</span>
         </li>
         <li>
-          <a href="index.html">
-            <i class="bx bxs-graduation"></i>
+          <div onclick="redirect('educationid')">
+            <i class="bx bxs-graduation" ></i>
             <span class="nav-item">Education</span>
-          </a>
+          </div>
           <span class="tooltip">Education</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('languageid')">
             <i class="bx bx-world"></i>
             <span class="nav-item">Language Skills</span>
-          </a>
+          </div>
           <span class="tooltip">Language Skills</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('softid')">
             <i class="bx bxs-business"></i>
             <span class="nav-item">Soft Skills</span>
-          </a>
+          </div>
           <span class="tooltip">Soft Skills</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('digitalid')">
             <i class="bx bx-laptop"></i>
             <span class="nav-item">Digital Skills</span>
-          </a>
+          </div>
           <span class="tooltip">Digital Skills</span>
         </li>
         <li>
-          <a href="index.html">
+          <div onclick="redirect('drivingid')">
             <i class="bx bxs-car"></i>
             <span class="nav-item">Driving License</span>
-          </a>
+          </div>
           <span class="tooltip">Driving License</span>
         </li>
         <li>
-          <a href="contact.html">
+          <div onclick="redirect('contactid')">
             <i class="bx bxs-contact"></i>
             <span class="nav-item">Contact</span>
-          </a>
+          </div>
           <span class="tooltip">Contact</span>
         </li>
       </ul>
@@ -110,7 +110,7 @@
             solutions and alternatives that meet your business requirements.
           </p>
         </div>
-        <div class="chld-container user-details">
+        <div class="chld-container user-details" id="aboutmeid">
           <h2>Andrei-Gabriel Paiu-Rotundu</h2>
           <ul>
             <li>
@@ -138,7 +138,7 @@
             </li>
           </ul>
         </div>
-        <div class="chld-container portofolio">
+        <div class="chld-container portofolio" id="portofolioid">
           <h2>Portofolio</h2>
           <div class="portofolio-container">
             <div class="card">
@@ -171,7 +171,7 @@
             </div>
           </div>
         </div>
-        <div class="chld-container work-experience">
+        <div class="chld-container work-experience" id="workexperienceid">
           <h2>Work Experience</h2>
           <div>
             <h3><i class='bx bxs-package'></i> Amazon Associate EMA4 (Birmingham)</h3>
@@ -272,7 +272,7 @@
             <p>Responsible for the proper functioning of company websites.</p>
           </div>
         </div>
-        <div class="chld-container education">
+        <div class="chld-container education" id="educationid">
           <h2>Education</h2>
           <div>
             <h3>Aviation and Airport Management</h3>
@@ -300,7 +300,7 @@
             <p>Address: 88 National Street, 707365 Podu-Iloaiei (Romania)</p>
         </div>
       </div>
-      <div class="chld-container language-skills">
+      <div class="chld-container language-skills" id="languageid">
         <h2>Language Skills</h2>
         <p>Mother tongue(s): <strong>Romanian</strong></p>
         <table>
@@ -321,7 +321,7 @@
         </table>
         <p>Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user</p>
       </div>
-      <div class="chld-container soft-skills">
+      <div class="chld-container soft-skills" id="softid">
         <h2>Soft Skills</h2>
         <h3>Personal Attributes and Interpersonal Skills</h3>
         <ul>
@@ -336,14 +336,14 @@
           <li>Good time management</li>
         </ul>
       </div>
-      <div class="chld-container digital-skills">
+      <div class="chld-container digital-skills" id="digitalid">
         <h2>Digital Skills</h2>
         <h3>Full-Stack Proficiency Across Front-end and Back-end Technologies</h3>
         <p><strong>Languages:</strong> HTML, CSS, JavaScript, Python.</p>
         <p><strong>Frameworks/Libraries:</strong> React.js, Node.js.</p>
         <p><strong>Additional Skills:</strong> Microsoft Office, Adobe Photoshop, Social Media.</p>
       </div>
-      <div class="chld-container drivind-license">
+      <div class="chld-container drivind-license" id="drivingid">
         <h2>Driving License</h2>
         <p><strong>Additional Information:</strong> Possess a valid Category B of Driver's License with a clean driving record.</p>
       </div>

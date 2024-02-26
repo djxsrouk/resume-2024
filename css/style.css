@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -164,7 +164,7 @@ body {
     margin: 0.8rem auto;
 }
 
-.sidebar ul li a {
+.sidebar ul li div {
     color: #FFF;
     display: flex;
     align-items: center;
@@ -172,12 +172,12 @@ body {
     border-radius: 0.8rem;
 }
 
-.sidebar ul li a:hover {
+.sidebar ul li div:hover {
     background-color: #FFF;
     color: #052659;
 }
 
-.sidebar ul li a i {
+.sidebar ul li div i {
     min-width: 50px;
     text-align: center;
     height: 50px;
